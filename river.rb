@@ -37,14 +37,15 @@ class River
     @discharge=number
   end
 
-  def term=(action)
-     if action=='flood'
+  def flood(action)
        action=(@discharge*1.30)
-    else
-       action=(@discharge*0.50)
-    end
-   @action=action
   end
+  
+  def dry_up(action)
+       action=(@discharge*0.50)
+  end
+  
+  
 end
 
 river_one= River.new("The Nile")
