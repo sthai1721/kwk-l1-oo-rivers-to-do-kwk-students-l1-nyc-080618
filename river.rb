@@ -38,6 +38,7 @@ class River
        @discharge=discharge*1.30
     else
        @discharge=discharge*0.50
+    end
   end
 end
 
