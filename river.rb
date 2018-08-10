@@ -12,7 +12,9 @@ class River
   def countries
     @countries
   end
-
+  
+  def discharge
+end
 
 
 end
