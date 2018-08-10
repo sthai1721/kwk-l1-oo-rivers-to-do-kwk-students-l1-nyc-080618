@@ -5,8 +5,20 @@ class River
     @name=name
   end
   
+  def name
+    @name
+  end
+  
+  def name=(name)
+  @name
+  end
+  
   def length
     @length
+  end
+  
+  def length=(length)
+  @length
   end
   
   def countries
@@ -14,7 +26,9 @@ class River
   end
   
   def discharge
-end
+    @discharge
+  end
 
+  def discharge=(action)
 
 end
