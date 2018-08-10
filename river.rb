@@ -40,3 +40,5 @@ class River
        @discharge=discharge*0.50
   end
 end
+
+river_one= River.new("The Nile")
