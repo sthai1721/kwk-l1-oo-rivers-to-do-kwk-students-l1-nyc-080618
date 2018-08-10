@@ -37,11 +37,11 @@ class River
     @discharge=number
   end
 
-  def flood(action)
+  def flood
        @flood=(@discharge*1.30)
   end
   
-  def dry_up(action)
+  def dry_up
        @dry_up=(@discharge*0.50)
   end
   
